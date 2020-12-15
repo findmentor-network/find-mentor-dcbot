@@ -1,2 +1,2 @@
 # findmentor-dcbot
-OpenSource di
+OpenSource discord bot for FindMentor Network discord server
