@@ -4,7 +4,8 @@
   "description": "OpenSource discord bot for FindMentor Network discord server",
   "main": "dc-bot.js",
   "scripts": {
-    "test": "nodemon dc-bot.js"
+    "test": "nodemon dc-bot.js",
+    "prod": "node dc-bot.js"
   },
   "repository": {
     "type": "git",
