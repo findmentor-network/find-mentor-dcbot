@@ -5,7 +5,7 @@
   "main": "dc-bot.js",
   "scripts": {
     "test": "nodemon dc-bot.js",
-    "prod": "node dc-bot.js"
+    "start": "node dc-bot.js"
   },
   "repository": {
     "type": "git",
