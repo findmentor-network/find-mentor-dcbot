@@ -6,9 +6,9 @@ module.exports = (client, member) => {
     //console.log(member)
 
     const embedWelcome = new Discord.MessageEmbed()
-        .setColor('#0099ff')
-        .setTitle('Welcome ' + member.user.username + '!')
-        .setDescription(`Welcome to the server <@${member.user.id}>! We hope you can enjoy here!`)
+        .setColor('#FF5733')
+        .setTitle('Goodbye ' + member.user.username + '!')
+        .setDescription(`Goodbye <@${member.user.id}>! We hope we can see you here again!`)
         .setTimestamp();
     channel.send(embedWelcome)
 };
