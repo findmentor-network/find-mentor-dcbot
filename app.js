@@ -1,10 +1,9 @@
 const { Client } = require('discord.js');
 const fs = require('fs');
 const Enmap = require('enmap');
-require('dotenv-flow').config();
+require('dotenv').config();
 
 const client = new Client();
-
 client.commands = new Enmap();
 
 fs.readdir('./events/', (err, files) => {

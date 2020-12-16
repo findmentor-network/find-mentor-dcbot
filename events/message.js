@@ -1,4 +1,4 @@
-require('dotenv-flow').config();
+require('dotenv').config();
 
 module.exports = (client, message) => {
     if (message.author.bot) return;

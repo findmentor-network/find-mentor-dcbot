@@ -23,7 +23,7 @@
   "homepage": "https://github.com/muraterzioglu/findmentor-dcbot#readme",
   "dependencies": {
     "discord.js": "^12.5.1",
-    "dotenv-flow": "^3.2.0",
+    "dotenv": "^8.2.0",
     "enmap": "^5.8.2",
     "fs": "^0.0.1-security",
     "node-fetch": "^2.6.1"
