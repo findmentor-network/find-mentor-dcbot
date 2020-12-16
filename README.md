@@ -31,7 +31,7 @@ BOT_TOKEN={Your Test Bot Token}
 # Install project dependencies
 yarn install
 
-# start with nodemon (npm i -g )
+# start with nodemon (npm i -g nodemon)
 yarn run test
 ```
 
