@@ -19,7 +19,7 @@ OpenSource discord bot for FindMentor Network discord server for moderation, wel
  7. Select your server and click add! Bum!
 
 ## How to Run?
-For runing the bot you need a `.env` file which is inculude 4 section
+For runing the bot you need a `.env` file which is inculude `9` section
 ```env
 BOT_PREFIX={Up To You}
 BOT_OWNER= {Your User ID}
@@ -32,6 +32,7 @@ GUILD_ID={YourGuildID}
 GUILD_CAT={YourGuildCatID}
 SHEETS_ID={spreadsheetId}
 SHEETS_API={spreadsheetApiKey}
+LOOP_TIME={LoopTımeForChannelCheck}
 ```
 
 ```
