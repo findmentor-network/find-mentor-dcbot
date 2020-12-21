@@ -26,6 +26,13 @@ BOT_OWNER= {Your User ID}
 BOT_CLIENTSECRET= {Your Client ID}
 BOT_TOKEN={Your Test Bot Token}
 ```
+New Env Values
+```js
+GUILD_ID={YourGuildID}
+GUILD_CAT={YourGuildCatID}
+SHEETS_ID={spreadsheetId}
+SHEETS_API={spreadsheetApiKey}
+```
 
 ```
 # Install project dependencies
