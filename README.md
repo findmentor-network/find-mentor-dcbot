@@ -21,13 +21,13 @@ OpenSource discord bot for FindMentor Network discord server for moderation, wel
 ## How to Run?
 For runing the bot you need a `.env` file which is inculude 4 section
 ```env
-BOT_PREFIX= {Up To You}
+BOT_PREFIX={Up To You}
 BOT_OWNER= {Your User ID}
 BOT_CLIENTSECRET= {Your Client ID}
 BOT_TOKEN={Your Test Bot Token}
 ```
 New Env Values
-```js
+```env
 GUILD_ID={YourGuildID}
 GUILD_CAT={YourGuildCatID}
 SHEETS_ID={spreadsheetId}
