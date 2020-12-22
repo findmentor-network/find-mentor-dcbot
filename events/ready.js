@@ -24,7 +24,7 @@ module.exports = (client,message) => {
                         const peergh   = data2[2];
                         const peername = data2[2].slice(19).split("/");
                         const peerbutstr = JSON.stringify(peername[1]);
-                        let guild = client.guilds.cache.get(process.env.GUILD_ID);
+                        let guild = client.guilds.cache.get("786277089577402418");
             
                         /*
                         console.log(peername[1] + "\n" + peergh + "\n") // proje isimleri ve linkleri çıktı alınır
@@ -47,7 +47,7 @@ module.exports = (client,message) => {
                                 guild.channels.create(peerbutstrLower, {
                                     type: 'text',
                                     topic: peergh,
-                                    parent: process.env.GUILD_CAT
+                                    parent: '788477504805142630'
                                 })
                                 console.log("[LOG: BOT] Kanal oluşturuluyor: " + peerbutstrLower)
                             }

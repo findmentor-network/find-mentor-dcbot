@@ -1,8 +1,7 @@
 module.exports = (client, member) => {
     require('dotenv').config();
     const Discord = require('discord.js')
-    const channelId = process.env.WELCOMEBYE_CHAN // welcome channel
-    const channel = client.channels.cache.get(channelId)
+    const channel = client.channels.cache.get("786282663522074645")
     
     //console.log(member)
 

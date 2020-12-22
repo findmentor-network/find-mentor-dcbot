@@ -1,6 +1,6 @@
 module.exports = (client, member) => {
     const Discord = require('discord.js')
-    const channelId = '788792659112099890' // logs channel
+    const channelId = '790992468883275796' // logs channel
     const channel = client.channels.cache.get(channelId)
     
     //console.log(member)
