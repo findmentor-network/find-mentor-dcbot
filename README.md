@@ -1,12 +1,12 @@
 # Find Mentor | Discord Bot
-OpenSource discord bot for FindMentor Network discord server for moderation, welcoming, roles, announcements and loging system
+OpenSource discord bot for FindMentor Network discord server for moderating server, welcoming new users, giving role to users, making announcements and logging system.
 
 
 ## Create A Discord Bot
 1. Go to [discord developer portal](https://discord.com/developers/applications)
-2. Click "New Applicaiton" button at top right
-3. Enter your bot name, up to you
-4. After that you will be see "Bot" section at sidebar
+2. Click "New Application" button at top right
+3. Enter your bot name, it is up to you
+4. After that,  you will see "Bot" section at sidebar
 5. Click "Add Bot" then click "Yes, do it!" to confirmation message
 
  ## Adding test bot to your server
@@ -19,7 +19,7 @@ OpenSource discord bot for FindMentor Network discord server for moderation, wel
  7. Select your server and click add! Bum!
 
 ## How to Run?
-For runing the bot you need a `.env` file which is inculude `9` section
+For runing the bot you need a `.env` file which includes `9` sections
 ```env
 BOT_PREFIX={Up To You}
 BOT_OWNER= {Your User ID}
@@ -43,4 +43,4 @@ yarn install
 yarn run test
 ```
 
-and that's it your bot is up and runing.
+and that's it! Your bot is ready for serving you!
