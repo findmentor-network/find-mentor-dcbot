@@ -2,14 +2,14 @@
   "name": "findmentor-dcbot",
   "version": "0.1.0",
   "description": "OpenSource discord bot for FindMentor Network discord server",
-  "main": "app.js",
+  "main": "dc_bot.js",
   "scripts": {
-    "test": "nodemon app.js",
-    "start": "node app.js"
+    "dev": "nodemon dc_bot.js",
+    "start": "node dc_bot.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/muraterzioglu/findmentor-dcbot.git"
+    "url": "git+https://github.com/muraterzioglu/find-mentor-dcbot.git"
   },
   "keywords": [
     "disord.js",
@@ -18,17 +18,14 @@
   "author": "https://discord.gg/TjjMQHpDQn",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/muraterzioglu/findmentor-dcbot/issues"
+    "url": "https://github.com/muraterzioglu/find-mentor-dcbot/issues"
   },
-  "homepage": "https://github.com/muraterzioglu/findmentor-dcbot#readme",
+  "homepage": "https://github.com/muraterzioglu/find-mentor-dcbot#readme",
   "dependencies": {
     "discord.js": "^12.5.1",
     "dotenv": "^8.2.0",
     "enmap": "^5.8.2",
     "fs": "^0.0.1-security",
     "node-fetch": "^2.6.1"
-  },
-  "devDependencies": {
-    "eslint": "^7.15.0"
   }
 }

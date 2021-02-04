@@ -21,18 +21,9 @@ OpenSource discord bot for FindMentor Network discord server for moderating serv
 ## How to Run?
 For runing the bot you need a `.env` file which includes `9` sections
 ```env
-BOT_PREFIX={Up To You}
-BOT_OWNER= {Your User ID}
-BOT_CLIENTSECRET= {Your Client ID}
-BOT_TOKEN={Your Test Bot Token}
-```
-New Env Values
-```env
-GUILD_ID={YourGuildID}
-GUILD_CAT={YourGuildCatID}
 SHEETS_ID={spreadsheetId}
 SHEETS_API={spreadsheetApiKey}
-LOOP_TIME={LoopTımeForChannelCheck}
+BOT_TOKEN={Your Test Bot Token}
 ```
 
 ```

@@ -1,7 +1,7 @@
-exports.run = (client, message, args) => {
-    message.channel.send('Pong!').catch(console.error);
+exports.run = (message) => {
+	message.channel.send('Pong!').catch(console.error);
 };
 
 exports.help = {
-    name: 'ping'
+	name: 'Ping'
 };
